@@ -1,0 +1,256 @@
+body{
+    background-color:#27374D !important;
+}
+
+.nav-item
+{
+    color:black;
+    margin-left: 50px;
+    width: 160px;
+    height: 100px;
+    text-align: center;
+    font-size:xx-large;
+    border:3px solid #B5C99A;
+    background-color:#9DB2BF;
+    border-radius: 30%;
+    font-family: Archivo;
+}
+.active{
+    text-decoration: underline;
+}
+.intro{
+    margin-top: 80px;
+}
+/* ////////////////////////////////projects/////////////////////////////// */
+.projects{
+    width: 100%;
+    height:200px;
+    text-align: center;
+    /* margin-top: 150px; */
+}
+.projects h2{
+    font-family: Caprasimo;
+    font-size: 100px;
+    color:#B5C99A;
+    margin-bottom: 50px;
+}
+.projects h3{
+    font-family: Caprasimo;
+    font-size: 60px;
+    color:#2E8A99
+}
+.projects p{
+    font-size: 10px;
+    color:#9DB2BF;
+}
+.card{
+    display: inline-block;
+    float:left;
+    margin-bottom: 470px;
+    margin-left: 170px;
+}
+.card-img-top{
+    height: 400px;
+    width: 600px;
+}
+.image{
+    display: inline;
+    float: left;
+    margin-left: 70px;
+    margin-right: 100px;
+    border-radius: 20%;
+}
+.name
+{
+    font-family: Grenze Gotisch;
+    font-size: 300px;
+    color:#9DB2BF;
+}
+.intro2{
+    font-family: Belanosima;
+    font-size: 150px;   
+    color:#526D82;
+}
+.intro3{
+    font-family:rosario;
+    font-size: 75px;
+}
+
+/* ///////////////EDUCATIONNNNNNNNNNNNNNNNNN////////////////////////////////////// */
+
+
+.edplusint{
+    /* margin: 0 auto; */
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 50em 50em; 
+    column-gap: 2em;
+    margin-bottom: 200px;
+    margin-top: 300px;
+}
+.title{
+    color:#B5C99A;
+    font-size: 150px;
+    text-align: left;
+    font-family:Inconsolata;
+    font-weight: bolder;
+}
+.year{
+    color:#9DB2BF;
+    margin-top: 30px;
+}
+.education-row{
+    margin-left: 200px;
+}
+.content h3{
+    color:#B5C99A;
+    font-size: 40px;
+    margin-top: 10px;
+    
+}
+.content p{
+    color:#9DB2BF;
+    font-size: 27px;
+    margin-top: 10px;
+    width: 35em;
+}
+.internship{
+    color:#9DB2BF;
+    margin-left: 500px;
+    /* /* margin-top: 50px; */
+} 
+.internship1{
+    color:#B5C99A;
+    font-size: 150px;
+    text-align: left;
+    font-family:Inconsolata;
+    font-weight: bolder;
+}
+.internship2{
+    color:#9DB2BF;
+    font-size: 30px;
+    margin-top: 10px;
+    width: 40em;
+}
+.internship3{
+    color:#B5C99A;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.languages{
+    color:#9DB2BF;
+    font-size: 35px;
+    margin-top: 10px;
+}
+/* /////////////CONTACTTTTTTTTTTTTTTTTTTT//////////////////////////////////////// */
+#contactt{
+    margin-top: 1000px;
+    height: 1000px;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url('/images/contactt.jpg');
+    background-position: right;
+    /* background-repeat: no-repeat; */
+    /* margin-right: 350px; */
+    background-size: cover;
+}
+.contact p{
+    font-size: 50px;
+    color: #9DB2BF;
+}
+#color{
+    color:#FFC300;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+
+#contact2 p{
+    position: relative;
+    top: 9rem;
+    margin-left: 20px;
+    font-size:50px;
+    font-family: Merriweather;
+}
+#contact2 a{
+    color:white;
+}
+#contact2 p{
+    color: white;
+}
+/* ////////////////////////////ABOUT ME AND COURSES////////////////////////////////////////////// */
+.aboutme{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 600px;
+    margin-left: 40px;
+}
+.myselfh1{
+    color:#B5C99A;
+    font-size: 100px;
+    text-align: center;
+}
+.myselfp{
+    color:#9DB2BF;
+    font-size: 40px;
+    text-align: center;
+    /* font-family: ; */
+}
+.courses{
+    margin-left: 100px;
+}
+.courses h1{
+    color:#B5C99A;
+    font-size: 100px;
+    text-align: left;
+    margin-left: 40px;
+}
+.courses1 li{
+    font-size: 50px;
+    list-style: none;
+    color: #9DB2BF;
+    
+}
+.tick{
+    color:#B5C99A ;
+}
+/* //////////////////////////////////////////////// */
+
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+
+.top{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    column-gap: 30px;
+    margin-bottom: 200px;
+}
+.extra{
+    text-align: center;
+    font-size: 100px;
+    font-family: Belanosima;
+    color:#B5C99A ;
+    margin-top: 200px;
+}
+.unzila{
+    list-style: none;
+}
+.top h1{
+    font-size: 80px;
+    font-family: Belanosima;
+    color:#2E8A99 ;
+    padding: 10px;
+}
+.unzila li{
+    font-size: 40px;
+    font-family:Inconsolata;
+    color:#F1F6F9;
+    margin-top: 10px;
+}
+.common{
+    border: 5px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
